@@ -1,5 +1,7 @@
-body{
-  background-color: lightblue;
+.quote{
+  display: flex;
+  align-items: center;
+  justify-Content: center;
 }
 .quote p{
   font-weight: bold;
@@ -7,28 +9,23 @@ body{
 .quote h2{
   font-family:'Times New Roman', Times, serif;
 }
-.quote{
-  display: block;
-  align-items: center;
-  margin-left: 25%;
-  margin-top: 8%;
-  max-height: 350px;
-  width: 600px;
-  border: 3px solid hsl(0, 0%, 0%);
-  border-radius: 20px;
-  box-shadow: 20px 20px 5px grey;
+.content{
+    background: #fff;
+    /* background: wheat; */
+    padding: 2em;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border:2px solid black;
 }
 .btn{
-  margin-top: 25%;
-  margin-left: 40%;
-  margin-bottom: 2%;
-  font-size: 20px;
   background: black;
-  border-radius: 10px;
-  border: 0px ;
-  /* position: absolute; */
-  padding: 10px;
+  color: #fff;
+  padding: 0.8em 1.5em;
+  border-Radius: 10px;
+  border: none;
+  outline: none;
   cursor: pointer;
-  color: white ;
-  
-}
+  font-Size: 1.2em;
+  margin-top: 2em;
+} 

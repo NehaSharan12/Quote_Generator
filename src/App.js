@@ -28,10 +28,12 @@ const Quote = () => {
   };
   
   return (
-    <div className="quote" style={{ backgroundColor, height: "100vh", padding: "2em" }}>
+    <div className="quote" style={{ backgroundColor, height: "100vh"}}>
+      <div className="content">
       <h2>{quote.content}</h2>
       <p>— {quote.author}</p>
       <button className="btn" onClick={fetchQuote}>New Quote</button>
+      </div>
     </div>
   );
 };
